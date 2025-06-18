@@ -1,0 +1,65 @@
+.container {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container:hover {
+  transform: translateY(-2px);
+}
+
+.completed {
+  background-color: #f8f9fa;
+  border-color: #e9ecef;
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.completedTitle {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.status {
+  font-size: 14px;
+  color: #6c757d;
+  margin: 0;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+.completionDate {
+  font-size: 12px;
+  color: #6c757d;
+  margin: 5px 0 0 0;
+} 
